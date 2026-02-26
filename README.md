@@ -506,3 +506,9 @@ adamxiang-dbt-netflix-project/
 | **Monitoring** | No alerting on test failures | Route `dbt test` failures to Slack via dbt Cloud or custom CI step |
 | **Unique key tests** | Commented out in `schema.yml` | Investigate and resolve duplicate `movie_id` / `user_id` sources before enabling |
 | **`ep_movies_with_tags`** | Duplicates `dim_movies_with_tags` — unclear purpose | Evaluate if this model is needed or can be removed |
+
+---
+
+🙏 Acknowledgments
+
+**Darshil Parmar** provides this useful and insight data engineering project - [Netflix Data Analysis](https://www.youtube.com/watch?v=zZVQluYDwYY)
